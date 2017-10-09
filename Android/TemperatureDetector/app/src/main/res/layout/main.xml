@@ -1,0 +1,83 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+	android:gravity="center">
+
+	<TextView
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:id="@+id/tv"/>
+	<LinearLayout
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:weightSum="100">
+		
+		<Button
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:layout_weight="65"
+			android:text=""
+			android:textSize="14dp"
+			android:id="@+id/cdbutton"/>
+		
+		<LinearLayout
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:layout_weight="35"
+			android:orientation="vertical"
+			android:gravity="center">
+			
+			<LinearLayout
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:weightSum="100">
+				<TextView
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:layout_weight="60"
+					android:textSize="12dp"
+					android:gravity="center"
+					android:text="Status: "/>
+				<TextView
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:layout_weight="40"
+					android:textSize="18dp"
+					android:id="@+id/status"/>
+			</LinearLayout>
+			
+			<LinearLayout
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:weightSum="100">
+				<TextView
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:layout_weight="50"
+					android:textSize="12dp"
+					android:gravity="center"
+					android:text="Running Time: "/>
+				<TextView
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:layout_weight="50"
+					android:textSize="18dp"
+					android:id="@+id/runningtime"/>
+			</LinearLayout>
+			
+		</LinearLayout>
+	</LinearLayout>
+
+	<TextView
+		android:layout_width="match_parent"
+		android:layout_height="200dp"
+		android:layout_marginTop="60dp"
+		android:layout_marginBottom="10dp"
+		android:layout_marginLeft="15dp"
+		android:layout_marginRight="15dp"
+		android:gravity="center"
+		android:textSize="35dp"
+		android:id="@+id/tempReadings"/>
+	
+</LinearLayout>	

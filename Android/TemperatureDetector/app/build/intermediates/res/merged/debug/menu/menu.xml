@@ -1,0 +1,21 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    
+	<item
+        android:id="@+id/connectMe"
+		android:icon="@drawable/add_multiple"
+        android:title="Connect"
+		android:showAsAction="always"/>
+    <item
+        android:id="@+id/last100Records"
+        android:title="Last 100 Records"
+		android:showAsAction="never"/>
+    <item
+        android:id="@+id/allRecords"
+        android:title="All Records"
+		android:showAsAction="never"/>
+	<item
+        android:id="@+id/exit"
+        android:title="Exit"
+		android:showAsAction="never"/>
+    
+</menu>
