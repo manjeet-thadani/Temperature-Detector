@@ -11,7 +11,7 @@
 	1. Arduino board (I used Uno)
 	2. Temperature Sensor - LM35
 	3. Bluetooth Module - HC-05
-	4. Resistance’s, Capacitor, Jumper cables etc.
+	4. Resisters, Capacitor, Jumper cables etc.
 
 ### Circuit Arrangement
 
